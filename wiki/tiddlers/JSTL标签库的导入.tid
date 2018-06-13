@@ -1,0 +1,37 @@
+created: 20180612130331096
+modified: 20180612131100360
+tags: 
+title: JSTL标签库的导入
+tmap.id: 394e015c-9cbf-438f-af7c-9c382bb03920
+type: text/vnd.tiddlywiki
+
+JSTL标签库的导入
+(下载jstl)
+
+在tomcat.apache.org/taglibs/下载JSTL1.2标签库到本地。然后放置到tomcat/lib目录下面。拿出其中的c.tld+fmt.tld+fn.tld+sql.tld+x.tld五个文件放如所在project的WEB_INF下面。。
+
+(配置jstl)
+
+在Project里的web.xml里面配置JStl。（jstl配置的格式在tomcat安装目录里面webapp>example下面）
+
+```xml
+<jsp-config>
+<taglib>
+<taglib-uri>http://tomcat.apache.org/core</taglib-uri>
+<taglib-location>/WEB-INF/c.tld</taglib-location>
+</taglib>
+</jsp-config>
+```
+然后再jsp页面引入标签库
+
+<%@ taglib prefix="c" uri="http://tomcat.apache.org/core" %>
+
+ 
+
+------------------------------------------------------------------
+
+ 
+
+以上是核心标签库的引入范例，其他标签库引入方法类似！
+
+ 

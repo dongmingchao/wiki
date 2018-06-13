@@ -1,0 +1,11 @@
+created: 20180612170421108
+modified: 20180612172623945
+tags: 图论
+title: 通路/回路
+tmap.id: e5cb0e7b-dd2a-4cd7-9ed2-29afe5b89f62
+type: text/vnd.tiddlywiki
+
+*简单通路
+*>若所有边互不相同
+*基本通路
+*>所有点互不相同
