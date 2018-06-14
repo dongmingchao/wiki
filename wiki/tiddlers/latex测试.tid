@@ -1,0 +1,10 @@
+created: 20180614102219438
+modified: 20180614102415135
+tags: 测试
+title: latex测试
+tmap.id: 141cda81-4ffa-4680-8577-a188ec810e6c
+type: text/vnd.tiddlywiki
+
+$$
+\frac{a}{b}
+$$
